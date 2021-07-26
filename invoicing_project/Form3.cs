@@ -19,7 +19,7 @@ namespace invoicing_project
         private OleDbConnection connection = new OleDbConnection();
         double i = 0.0, sum = 0.0;
         double total = 0.0, total2 = 0.0, total3 = 0.0;
-        double vat = 0.0;
+        double vat = 0.15;
         public int iii = 0;
         int ii = 1;
         int c_i = 1;
@@ -572,6 +572,8 @@ namespace invoicing_project
 
             StringFormat rtlFormat = new StringFormat(StringFormatFlags.DirectionRightToLeft);
 
+            // hide vat number
+            e.Graphics.FillRectangle(new SolidBrush(Color.Black), new Rectangle(543, 125, 255, 25));
             // date
             e.Graphics.DrawString(parsedDate.ToString("dd/MM/yyyy h:mm tt"), new Font("Arial", 11, FontStyle.Regular), Brushes.Black, new Point(573, 195));
             // invoice no
@@ -617,6 +619,9 @@ namespace invoicing_project
                 }
                 point02 += 30;
             }
+
+            e.Graphics.DrawString(textBox4.Text, new Font("Arial", 11, FontStyle.Regular), Brushes.Black, new Point(135, 830), format);
+            e.Graphics.DrawString("القيمة المضافة", new Font("Arial", 11, FontStyle.Regular), Brushes.Black, new Point(595, 830), format);
 
             /*
             int offSetX = 138;
@@ -782,6 +787,11 @@ namespace invoicing_project
         private void textBox11_TextChanged(object sender, EventArgs e)
         {
             add_items();
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
         }
 
         private void button4_Click(object sender, EventArgs e)

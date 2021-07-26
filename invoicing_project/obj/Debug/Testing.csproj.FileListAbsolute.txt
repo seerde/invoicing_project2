@@ -56,7 +56,6 @@ C:\Projects\invoicing_project\invoicing_project\obj\Debug\invoicing_project.pdb
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\bin\Debug\invoicing_project.exe.config
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\bin\Debug\invoicing_project.exe
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\bin\Debug\invoicing_project.pdb
-C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\Testing.csprojAssemblyReference.cache
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\invoicing_project.Form1.resources
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\invoicing_project.Form2.resources
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\invoicing_project.Form3.resources
@@ -71,3 +70,4 @@ C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\Testing.csproj.CopyComplete
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\invoicing_project.exe
 C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\invoicing_project.pdb
+C:\Users\Seerde\sei\projects\invoicing_project-master_2\invoicing_project-master\invoicing_project\obj\Debug\Testing.csproj.AssemblyReference.cache
